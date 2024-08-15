@@ -1,0 +1,493 @@
+body
+{
+    font-family: 'Source Sans 3', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-image: linear-gradient(red, blue, green); */
+    background-image: url(./images/alphaImages.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color:#f5f5f5 ;
+}
+
+#bars
+{
+    display: none;
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 1rem;
+}
+
+nav > #left > h1
+{
+    color: white;
+    font-size: 1.1rem;
+}
+
+nav > #left > h1 > span
+{
+    font-weight: 100;
+    /* ! */
+}
+
+#cont
+{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+#cont > li > a
+{
+    text-decoration: none;
+    color: white;
+    padding: 0rem 1rem 2rem 1rem;
+    /* display: block; */
+    /* ! */
+}
+
+#cont > li > a > button
+{
+    background-color: transparent;
+    color: white;
+    border:2px solid rgba(231, 225, 225, 0.856);
+    border-radius: 5px;
+    padding: 5px 1rem;
+}
+
+#menu
+{
+    padding: 0;
+    list-style-type: none;
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    width: 200%;
+    display: none;
+}
+
+#drop
+{
+    position: relative;
+}
+#drop:hover #menu
+{
+    display: block;
+}
+#menu a:hover
+{
+    color: white;
+    background-color: rgba(144,76,52,0.6);
+    border-radius: 5px;
+}
+
+#menu a
+{
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    display: block;
+    border-bottom: 2px solid rgb(236, 226, 226);
+}
+
+#alpha
+{
+    text-align: center;
+    color: white;
+    margin-top: 7rem;
+}
+#alpha > h2
+{
+    font-size: 3.5rem;
+    margin-bottom: 0;
+}
+#alpha >p
+{
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+#alpha > button
+{
+    width: 12%;
+    height: 3rem;
+    border-radius: 5px;
+    border: none;
+    color: grey;
+    margin-right: 2rem;
+}
+#alpha > #learn
+{
+    background-color: transparent;
+    color: white;
+    border: 2px solid rgb(200,191,191);
+}
+#alpha > #learn:hover
+{
+    background-color: rgba(128,128,128,0.397);
+}
+
+#info
+{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    color: grey;
+    margin-top: 12rem;
+    padding-top: 2rem;
+    border-radius: 5px;
+}
+#info > h2
+{
+    font-size: 2rem;
+}
+#info > p
+{
+    font-size: 1.2rem;
+    border-top: 2px solid rgba(130,122,122,0.768);
+    margin: auto;
+    width: 60%;
+    padding-top: 2rem;
+}
+#info > img
+{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+#icons
+{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 5px;
+}
+#icons > div
+{
+    width: 45%;
+    display: inline-block;
+    padding-top: 2rem;
+    text-align: center;
+}
+.fa-bolt-lightning
+{
+    font-size: 2rem;
+    background-color: #e89980;
+    color: white;
+    border-radius: 100%;
+    padding: 1.5rem 2rem;
+}
+.fa-chart-area
+{
+    font-size: 2rem;
+    background-color: #7fcdb8;
+    color: white;
+    border-radius: 60%;
+    padding: 1.5rem 2rem;
+}
+.fa-cloud
+{
+    font-size: 2rem;
+    background-color: #90b0ba;
+    color: white;
+    border-radius: 60%;
+    padding: 1.5rem 2rem;
+}
+.fa-lock
+{
+    font-size: 2rem;
+    background-color: #e5cb95 ;
+    color: white;
+    border-radius: 60%;
+    padding: 1.5rem 2rem;
+}
+
+#div1
+{
+    border-right: 2px solid #e5e5e5;
+    border-bottom: 2px solid #e5e5e5;
+    position: relative;
+    top: 1.5px;
+    left: 3.5px;
+}
+#div4
+{
+    border-top: 2px solid #e5e5e5;
+    border-left: 2px solid #e5e5e5;
+}
+
+#card
+{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+#card > div
+{
+    background-color: white;
+    width: 48%;
+    text-align: center;
+    border-radius: 5px;
+    padding-bottom: 2rem;
+    overflow: hidden;
+}
+#card > div > img
+{
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+#signup
+{
+    background-color: #e89980;
+    color: #f8e1d9;
+    text-align: center;
+    padding: 6rem;
+}
+#signup > div > h2
+{
+    font-size: 2.2rem;
+}
+#signup > div > p
+{
+    font-size: 1rem;
+    margin-bottom: 2.2rem;
+}
+
+#signup > div > input
+{
+    padding: 1rem;
+    width: 20%;
+    height: 20%;
+    border-radius: 5px;
+    /* margin: 1.5rem; */
+    margin-top: 2rem;
+    border: none;
+    background-color: rgba(211, 207, 207, 0.303);
+
+}
+#signup > div > button
+{
+    font-size: 1rem;
+    width: 20%;
+    height: 20%;
+    /* padding: 15px 25px; */
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    margin-top: 2rem;
+    color: #e89980;
+}
+
+footer > #footer_icon
+{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 1rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.fa-twitter
+{
+    color: rgb(153,153,153);
+    font-size: 2rem;
+}
+.fa-facebook 
+{
+    color: rgb(149, 149, 149);
+    font-size: 2rem;
+}
+.fa-instagram 
+{
+    color: rgb(149, 149, 149);
+    font-size: 2rem;
+}
+.fa-github 
+{
+    color: rgb(149, 149, 149);
+    font-size: 2rem;
+}
+.fa-dribbble 
+{
+    color: rgb(149, 149, 149);
+    font-size: 2rem;
+}
+.fa-google-plus
+{
+    color: rgb(149, 149, 149);
+    font-size: 2rem;
+}
+
+footer > #footer_text
+{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 2rem;
+    color: rgb(153, 153, 153);
+    margin-bottom: 12rem;
+}
+footer > #footer_text > .bord
+{
+    border-right: 0.5px solid rgb(221, 221, 221);
+    padding-right: 2rem;
+}
+footer > #footer_text > li > a
+{
+    color: rgb(153, 153, 153);
+}
+
+@media(max-width:730px)
+{
+    body
+    {
+        background-size: 190%;
+        /* background-color: red; */
+        background-position-x: center;
+    }
+    nav
+    {
+        display: none;
+    }
+
+    #bars
+    {
+        display: inline-block;
+        padding: 5px 20px;
+        color: #f5f5f5;
+        background-color:rgba(131, 125, 125, 0.538) ;
+        border-radius: 5px;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        position: fixed;
+        top: 1%;
+    }
+    #alpha
+    {
+        width: 80%;
+        margin: auto;
+        margin-top: 4rem;
+    }
+    #alpha > h2
+    {
+        font-size: 2rem;
+
+    }
+    #alpha > p
+    {
+        font-size: 1.1rem;
+    }
+    #alpha > button
+    {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    #info
+    {
+        width: 100%;
+        /* margin-top: 0rem; */
+        margin-top: 5rem;
+        padding-top: 2rem;
+    }
+    #info > h2
+    {
+        font-size: 1.5rem;
+    }
+    #info > p 
+    {
+        font-size: 1.1rem;
+        width: 90%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    br 
+    {
+        display: none;
+    }
+
+    #icons
+    {
+        width: 100%;
+    }
+    #icons > div
+    {
+        width: 100%;
+        display: block;
+        border-bottom: 2px solid grey;
+    }
+
+    #card
+    {
+        display: flex;
+        /* display: block; */
+        flex-direction: column;
+        width: 100%;
+    }
+    #card > div 
+    {
+        width: 100%;
+    }
+    #card > div > button 
+    {
+        width: 90%;
+    }
+
+    #signup > h1 
+    {
+        font-size: 1.5rem;
+    }
+    #signup > div > input 
+    {
+        width: 90%;
+    }
+    #signup > div > button 
+    {
+        width: 90%;
+        /* margin-left: 0px; */
+    }
+
+    footer > #footer_text
+    {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+}
+
+
+/* @media(min-width:200px)
+{
+    body
+    {
+        background-size: 250%;
+        background-color: blue;
+    }
+    nav
+    {
+        display: none;
+    }
+    #alpha
+    {
+        width: 100%;
+        margin: auto;
+        margin-top: 0rem;
+    }
+    #alpha > h2
+    {
+        font-size: 2rem;
+
+    }
+} */
